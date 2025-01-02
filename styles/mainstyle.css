@@ -181,14 +181,14 @@ img.small-list {
 .downward-icon-bdthemes > svg{
   width: 10px;
 }
-.country-option {
+.product-option {
   font-size: 12px;
   position: relative;
 }
 .downward-icon{
   font-size: small;
 }
-.country-option .option {
+.product-option .option {
   display: block;
   background: #F9FAFC;
   min-width: 140px;
@@ -196,31 +196,31 @@ img.small-list {
   border: 1px solid #E5EAF0;
   border-radius: 20px 20px 20px 20px;
 }
-.country-option .option img, .country-option .option span {
+.product-option .option img, .product-option .option span {
   display: inline-block;
   vertical-align: middle;
 }
-.country-option .option span {
+.product-option .option span {
   padding: 5px;
   margin: 0px 10px 33px 0px;
 }
-.country-option .option img.big {
+.product-option .option img.big {
   display: none;
 }
-.country-option .options {
+.product-option .options {
   padding: 10px;
   position: absolute;
   width: calc(100% - -15px);
   z-index: 10;
 }
-.country-option .options .option {
+.product-option .options .option {
   border: 1px solid #E5EAF0;
 }
 
-.selected-country{
+.selected-product{
     display: none;
 }
-.country-option .options .option + .option {
+.product-option .options .option + .option {
   margin-top: 10px;
 }
 textarea{
