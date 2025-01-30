@@ -9,291 +9,76 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
-.contact-form-section {
-  display: flex;
-  height: 919px;
+
+.blog-text{
+  margin-bottom: 50px;
 }
 
-form {
-  padding: 80px 68px;
-  background-color: #fff;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
+.page-title{
+  margin-bottom: 55px;
 }
 
-.contact-form-section .building-image {
-  width: 150%;
+.main-section{
+  width: 1400px;
+  margin: 100px auto;
+}
+
+.blog-image-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1024px;
+  gap: 0px 350px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.blog-post-image img{
+  width: 380px;
+  height: 200px;
   object-fit: cover;
 }
 
-.contact-form-section .logo {
-  width: 102px;
-  margin-bottom: 14px;
+.blog-snippet{
+  padding: 20px 15px 20px 15px;
+  height: 170px;
+  width: 350px;
+  background-color: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 153px;
 }
 
-.field-control{
-  display: flex;
-  gap: 20px;
+.blog-taxonomies{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 200px;
+  gap: 0px 40px;
   justify-content: space-between;
-  margin-top: 25px;
+  margin: 55px 0px;
 }
 
-.name {
-  width: 100%;
+.icon svg path {
+  fill: #E05647;
 }
 
-label.first-name {
-  margin-bottom: 24px;
+.icon svg{
+  width: 16px;
+}
+.blog-taxonomies>div{
+  width: 90px;
 }
 
-input[type = "text"]{
-  width: 100%;
-  border: 1px solid #E5EAF0;
-  padding: 10px 40px;
-  border-radius: 20px 20px 20px 20px;
-}
-.name-flex{
-  position: relative;
-  margin-top: 10px;
+.blog-post-image{
+  width: 50px;
+  height: 100px;
 }
 
-.avatar-icon-fname, .avatar-icon-lname {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
+.button-with-arrow {
+  width: auto; /* Allow the button to size dynamically */
+  height: auto; /* Let the button's height adjust naturally */
+  margin: 20px auto; /* Optional: center it horizontally */
+  text-align: center; /* Align content inside */
+  z-index: 99;
+ 
+  margin-top: 400px;
 }
-
-.avatar-icon-fname svg, .avatar-icon-lname svg{
-  width: 18px;
-  height: 18px;
-  display: block;
-}
-
-input[type = "email"]{
-  width: 100%;
-  border: 1px solid #E5EAF0;
-  padding: 10px 40px;
-  border-radius: 20px 20px 20px 20px;
-}
-
-.email-main-field {
-  margin-top: 25px;
-}
-
-.email-field{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-
-.email-field-icon {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.email-field-icon svg{
-  width: 18px;
-  height: 18px;
-  display: block;
-}
-
-input[type="tel"] {
-  width: 100%;
-  border: 1px solid #E5EAF0;
-  padding: 10px 20px;
-  border-radius: 0px 20px 20px 0px;
-  border-left: none;
-}
-
-.phone-main-field-container{
-  margin-top: 25px;
-}
-
-.phone-field-container{
-  display: flex;
-  margin-top: 10px;
-}
-
-.telephone{
-  width: 100%;
-}
-
-.message-main-field-container{
-  width: auto;
-  margin-top: 25px;
-}
-
-.message-main-field-container label{
-  display: block;
-}
-
-button[type="submit"]{
-  height: 35px;
-  background-color: #5046E5;
-  border: 1px solid #E5EAF0;
-  border-radius: 20px 20px 20px 20px;
-  color: #FFFDFF;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 25px;
-}
-
-.submit-button{
-  margin-top: 7px;
-}
-
-.right-arrow{
-  margin-top: 3px;
-  path{
-    fill: #FFFDFF;
-  }
-}
-
-img.small-static {
-  height: 23px;
-  border-radius: 50%;
-  margin: 6px 10px 4px 15px;
-  width: 23px;
-}
-
-img.small-list {
-  width: 23px;
-  height: 23px;
-  border-radius: 50%;
-  margin: 5px 10px 36px 15px;
-}
-.current-option{
-  display: block;
-  background: #F9FAFC;
-  min-width: 70px;
-  height: 37px;
-  border: 1px solid #E5EAF0;
-  border-radius: 20px 0px 0px 20px;
- }
-.downward-icon-bdthemes > svg{
-  width: 10px;
-}
-.product-option {
-  font-size: 12px;
-  position: relative;
-}
-.downward-icon{
-  font-size: small;
-}
-.product-option .option {
-  display: block;
-  background: #F9FAFC;
-  min-width: 140px;
-  height: 35px;
-  border: 1px solid #E5EAF0;
-  border-radius: 20px 20px 20px 20px;
-}
-.product-option .option img, .product-option .option span {
-  display: inline-block;
-  vertical-align: middle;
-}
-.product-option .option span {
-  padding: 5px;
-  margin: 0px 10px 33px 0px;
-}
-.product-option .option img.big {
-  display: none;
-}
-.product-option .options {
-  padding: 10px;
-  position: absolute;
-  width: calc(100% - -15px);
-  z-index: 10;
-}
-.product-option .options .option {
-  border: 1px solid #E5EAF0;
-}
-
-.selected-product{
-    display: none;
-}
-.product-option .options .option + .option {
-  margin-top: 10px;
-}
-textarea{
-  width: 100%;
-  font-family: "Open Sans", sans-serif;
-  border: 1px solid #E5EAF0;
-  border-radius: 20px 20px 20px 20px;
-  padding: 10px 0px 0px 10px;
-  height: 150px;
-  margin-top: 10px;
-}
-
-.field-font-weight{
-  font-weight: 600;
-}
-
-
-
-@media screen and (min-width: 1025px) and (max-width: 1400px) {
-  .contact-form-section .building-image {
-    width: 80%;
-  }
-}
-
-@media screen and (min-width: 626px) and (max-width: 767px) {
-  .contact-form-section {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 768px) {
-  img.building-image2 {
-      display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  img.building-image {
-      display: none;
-  }
-  
-}
-
-
-
-/* If screen size is 1024px wide, or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1024px) {
-  
-  form {
-    padding: 45px 18px;
-  }
-  
-  .field-control {
-    display: flex;
-    flex-direction: column;
-  }
-}
-/* If screen size is less than 625px wide, set the font-size of <div> to 80px */
-@media screen and (max-width: 625px) {
-  .contact-form-section {
-    display: flex;
-    height: 919px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  
-}
-/* If screen size is less than 375px wide, set the font-size of <div> to 80px */
-@media screen and (max-width: 375px) {
-  .current-option {
-    min-width: 80px;
-  }
-  
-}
-
